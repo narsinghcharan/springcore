@@ -4,6 +4,10 @@ import com.myex.producer.IMessageProducer;
 
 public class MessageWriter {
 
+	public MessageWriter() {
+		super();
+	}
+
 	private IMessageProducer messageProducer = null;
 	
 	public void setMessageProducer(IMessageProducer messageProducer) {
