@@ -3,7 +3,7 @@ package com.myex.bean;
 import com.myex.producer.IMessageProducer;
 
 public class MessageWriter {
-
+ 
 	public MessageWriter() {
 		super();
 	}
